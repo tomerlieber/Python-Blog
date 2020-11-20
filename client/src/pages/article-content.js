@@ -1,7 +1,13 @@
 import PythonBasics from './content/PythonBasics';
 import Comment from './content/Comments';
-import ZenOfPython from './content/ZenOfPython'
-
+import ZenOfPython from './content/ZenOfPython';
+import BasicTypes from './content/BasicTypes';
+import BasicOutput from './content/BasicOutput';
+import BasicUserInput from './content/BasicUserInput';
+import CallingFunctions from './content/CallingFunctions';
+import CreatingFunctions from './content/CreatingFunctions';
+import UsingModules from './content/UsingModules';
+import CreatingModules from './content/CreatingModules';
 
 const articles = [
     {
@@ -26,43 +32,43 @@ const articles = [
         name: 'basic-types',
         title: 'Basic Types in Python',
         introduction: "In Python there are 5 basic types: Integers, Floating-Point Numbers, Complex Numbers, Strings and Boolean",
-        content: null
+        content: BasicTypes
     },
     {
         name: 'basic-output',
         title: 'Basic Output',
         introduction: "The print() function prints the given object to the screen. The object will be converted into a string before written to the screen",
-        content: null
+        content: BasicOutput
     },
     {
         name: 'basic-user-input',
         title: 'Basic User Input',
         introduction: "Programs sometimes need to interact with users through the keyboard. In Python 3, the function input() is used for it",
-        content: null
+        content: BasicUserInput
     },
     {
         name: 'calling-functions',
         title: 'Calling Functions',
         introduction: "The Python programming language comes with a variety of build-in functions. Some functions are part of the base language and others require you to import from python modules",
-        content: null
+        content: CallingFunctions
     },
     {
         name: 'creating-functions',
         title: 'Creating Functions',
         introduction: "As you can see in the previous post, Python gives you many built-in functions like print(), input() etc. But you can also create your own functions",
-        content: null
+        content: CreatingFunctions
     },
     {
         name: 'using-modules',
         title: 'Using Modules',
         introduction: "A module is a file containing a set of functions and constants",
-        content: null
+        content: UsingModules
     },
     {
         name: 'creating-modules',
         title: 'Creating Modules',
         introduction: "To create a module save the code you want in a file with the file extension .py",
-        content: null
+        content: CreatingModules
     }
 ];
 
