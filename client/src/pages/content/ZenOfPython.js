@@ -6,7 +6,7 @@ const ZenOfPython = () => (
     <p>The <b>Zen of Python</b> is a collection of 19 guidelines for the design of the Python programming language. 
         The purpose of these guidelines is to make the code more readable and simple so it can be easily understood. 
         To watch the full collection click
-        <a href="https://en.wikipedia.org/wiki/Zen_of_Python" target="_blank" and rel="noopener noreferrer"> here</a>.</p>
+        <a href="https://en.wikipedia.org/wiki/Zen_of_Python" target="_blank" rel="noopener noreferrer"> here</a>.</p>
     <p>Here is my thought on some items found within that document:</p>
     <ol>
         <li>

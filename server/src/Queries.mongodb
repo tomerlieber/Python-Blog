@@ -15,16 +15,16 @@ db.posts.drop();
 
 // Insert a few documents into the sales collection.
 db.posts.insertMany([
-  { '_id' : 1, 'name' : 'PythonBasics', 'upvotes' : 0, 'comments' : [] },
-  { '_id' : 2, 'name' : 'Comments', 'upvotes' : 0, 'comments' : [] },
-  { '_id' : 3, 'name' : 'ZenOfPython', 'upvotes' : 0, 'comments' : [] },
-  { '_id' : 4, 'name' : 'BasicTypes', 'upvotes' : 0, 'comments' : [] },
-  { '_id' : 5, 'name' : 'BasicOutput', 'upvotes' : 0, 'comments' : [] },
-  { '_id' : 6, 'name' : 'BasicUserInput', 'upvotes' : 0, 'comments' : [] },
-  { '_id' : 7, 'name' : 'CallingFunctions', 'upvotes' : 0, 'comments' : [] },
-  { '_id' : 8, 'name' : 'CreatingFunctions', 'upvotes' : 0, 'comments' : [] },
-  { '_id' : 9, 'name' : 'UsingModules', 'upvotes' : 0, 'comments' : [] },
-  { '_id' : 10, 'name' : 'CreatingModules', 'upvotes' : 0, 'comments' : [] },
+  { '_id' : 1, 'name' : 'python-basics', 'upvotes' : 0, 'comments' : [] },
+  { '_id' : 2, 'name' : 'comments', 'upvotes' : 0, 'comments' : [] },
+  { '_id' : 3, 'name' : 'zen-of-python', 'upvotes' : 0, 'comments' : [] },
+  { '_id' : 4, 'name' : 'basic-types', 'upvotes' : 0, 'comments' : [] },
+  { '_id' : 5, 'name' : 'basic-output', 'upvotes' : 0, 'comments' : [] },
+  { '_id' : 6, 'name' : 'basic-user-input', 'upvotes' : 0, 'comments' : [] },
+  { '_id' : 7, 'name' : 'calling-functions', 'upvotes' : 0, 'comments' : [] },
+  { '_id' : 8, 'name' : 'creating-functions', 'upvotes' : 0, 'comments' : [] },
+  { '_id' : 9, 'name' : 'using-modules', 'upvotes' : 0, 'comments' : [] },
+  { '_id' : 10, 'name' : 'creating-modules', 'upvotes' : 0, 'comments' : [] },
 ]);
 
 //

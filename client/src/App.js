@@ -18,8 +18,8 @@ function App() {
           <Switch>
             <Route path="/" component={ HomePage } exact />
             <Route path="/about" component={ AboutPage } />
-            <Route path="/articles-list" component={ ArticlesListPage } />
-            <Route path="/article/:name" component={ ArticlePage } />
+            <Route path="/posts-list" component={ ArticlesListPage } />
+            <Route path="/posts/:name" component={ ArticlePage } />
             <Route component={ NotFoundPage } />
           </Switch>
         </div>

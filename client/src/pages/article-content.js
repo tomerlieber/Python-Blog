@@ -1,76 +1,69 @@
-const articles = [{
-        name: 'learn-react',
-        title: 'The Fastest Way to Learn React',
-        content: [
-            `Welcome! Today we're going to be talking about the fastest way to
-            learn React. We'll be discussing some topics such as proin congue
-            ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. 
-            Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
-            non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut 
-            eleifend ut ipsum non fringilla. Praesent imperdiet nulla nec est luctus, at 
-            sodales purus euismod.`,
-            `Donec vel mauris lectus. Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-            `Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-        ]
-    },    {
-        name: 'learn-node',
-        title: 'How to Build a Node Server in 10 Minutes',
-        content: [
-            `In this article, we're going to be talking looking at a very quick way
-            to set up a Node.js server. We'll be discussing some topics such as proin congue
-            ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. 
-            Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
-            non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut 
-            eleifend ut ipsum non fringilla. Praesent imperdiet nulla nec est luctus, at 
-            sodales purus euismod.`,
-            `Donec vel mauris lectus. Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-            `Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-        ]
-    },     {
-        name: 'my-thoughts-on-resumes',
-        title: 'My Thoughts on Resumes',
-        content: [
-            `Today is the day I talk about something which scares most people: resumes.
-            In reality, I'm not sure why people have such a hard time with proin congue
-            ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. 
-            Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
-            non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut 
-            eleifend ut ipsum non fringilla. Praesent imperdiet nulla nec est luctus, at 
-            sodales purus euismod.`,
-            `Donec vel mauris lectus. Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-            `Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-        ]
-    },  
+import PythonBasics from './content/PythonBasics';
+import Comment from './content/Comments';
+import ZenOfPython from './content/ZenOfPython'
+
+
+const articles = [
+    {
+        name: 'python-basics',
+        title: 'Python Basics',
+        introduction: "A short tutorial how to install an IDE for Python and run your first program",
+        content: PythonBasics
+    },
+    {
+        name: 'comments',
+        title: 'Comments',
+        introduction: "When writing code in any programming language, it's important to make the code readable and clear so other people (include you) can easily maintain and develop the program. One way to do it is to use comments",
+        content: Comment
+    },
+    {
+        name: 'zen-of-python',
+        title: 'Zen of Python',
+        introduction: "The Zen of Python is a collection of 19 guidelines for the design of the Python programming language. The purpose of these guidelines is to make the code more readable and simple so it can be easily understood",
+        content: ZenOfPython
+    },
+    {
+        name: 'basic-types',
+        title: 'Basic Types in Python',
+        introduction: "In Python there are 5 basic types: Integers, Floating-Point Numbers, Complex Numbers, Strings and Boolean",
+        content: null
+    },
+    {
+        name: 'basic-output',
+        title: 'Basic Output',
+        introduction: "The print() function prints the given object to the screen. The object will be converted into a string before written to the screen",
+        content: null
+    },
+    {
+        name: 'basic-user-input',
+        title: 'Basic User Input',
+        introduction: "Programs sometimes need to interact with users through the keyboard. In Python 3, the function input() is used for it",
+        content: null
+    },
+    {
+        name: 'calling-functions',
+        title: 'Calling Functions',
+        introduction: "The Python programming language comes with a variety of build-in functions. Some functions are part of the base language and others require you to import from python modules",
+        content: null
+    },
+    {
+        name: 'creating-functions',
+        title: 'Creating Functions',
+        introduction: "As you can see in the previous post, Python gives you many built-in functions like print(), input() etc. But you can also create your own functions",
+        content: null
+    },
+    {
+        name: 'using-modules',
+        title: 'Using Modules',
+        introduction: "A module is a file containing a set of functions and constants",
+        content: null
+    },
+    {
+        name: 'creating-modules',
+        title: 'Creating Modules',
+        introduction: "To create a module save the code you want in a file with the file extension .py",
+        content: null
+    }
 ];
 
 export default articles;

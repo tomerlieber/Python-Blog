@@ -25,7 +25,7 @@ const withDB = async (operations, res) => {
     }
 }
 
-app.get('/api/articles/:name', async (req, res) => {
+app.get('/api/posts/:name', async (req, res) => {
     withDB(async (db) => {
         const articleName = req.params.name;
 
@@ -34,7 +34,7 @@ app.get('/api/articles/:name', async (req, res) => {
     }, res);
 })
 
-app.post('/api/articles/:name/upvote', async (req, res) => {
+app.post('/api/posts/:name/upvote', async (req, res) => {
     withDB(async (db) => {
         const articleName = req.params.name;
     
@@ -50,7 +50,7 @@ app.post('/api/articles/:name/upvote', async (req, res) => {
     }, res);
 });
 
-app.post('/api/articles/:name/add-comment', (req, res) => {
+app.post('/api/posts/:name/add-comment', (req, res) => {
     const { username, text } = req.body;
     const articleName = req.params.name;
 

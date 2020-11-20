@@ -13,8 +13,9 @@ const ArticlePage = ({ match }) => {
     const [articleInfo, setArticleInfo] = useState({ upvotes: 0, comments: [] });
 
     useEffect(() => {
+        window.scrollTo(0, 0);
         const fetchData = async () => {
-            const result = await fetch(`/api/articles/${name}`);
+            const result = await fetch(`/api/posts/${name}`);
             const body = await result.json();
             setArticleInfo(body);
         }
@@ -29,9 +30,7 @@ const ArticlePage = ({ match }) => {
         <>
         <h1>{article.title}</h1>
         <UpvotesSection articleName={name} upvotes={articleInfo.upvotes} setArticleInfo={setArticleInfo} />
-        {article.content.map((paragraph, key) => (
-            <p key={key}>{paragraph}</p>
-        ))}
+        {<article.content />}
         <CommentsList comments={articleInfo.comments} />
         <AddCommentForm articleName={name} setArticleInfo={setArticleInfo} />
         <h3>Other Articles:</h3>
