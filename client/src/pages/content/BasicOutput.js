@@ -28,21 +28,21 @@ const BasicOutput = () => (
     </p>
     <p>* Put attention that the default separator between objects is space (" "). You can change it in the following way:</p>
     <code>
-    --&gt; print(866, 326, 7484, sep="-");<br/>
-    866-326-7484
-    </code>
-    <p>* Another thing that you can notice is that the newline character is printed at the end of the line, so each line is printed in a new line. You can change it in the following way:</p>
-    <code>
-    --&gt;print("Hello,", end=" ");<br/>
-    --&gt;print("how are you?");<br/>
-    Hello, how are you?<br/><br/>
+        --&gt; print(866, 326, 7484, sep="-");<br/>
+        866-326-7484
+        </code>
+        <p>* Another thing that you can notice is that the newline character is printed at the end of the line, so each line is printed in a new line. You can change it in the following way:</p>
+        <code>
+        --&gt;print("Hello,", end=" ");<br/>
+        --&gt;print("how are you?");<br/>
+        Hello, how are you?<br/><br/>
     </code>
     <p>
         <b>Example 3</b> - How to control the size of float output:<br/>
         <p>First, we use &#123;:f&#125; in order to format float number. Second, we specify two numbers on both sides of a point &#123;:10.2f&#125;. The left number represents the length of the complete output, and the right number limits the number of positions after the decimal point.</p>
         <code>
-        --&gt; print('&#123;:10.2f&#125;'.format(3.141592653589793));<br/>
-        3.14
+            --&gt; print('&#123;:10.2f&#125;'.format(3.141592653589793));<br/>
+            3.14
         </code>
         <p>In this example we want our output to have at least 10 characters with 2 after the decimal point.</p>
     </p>
