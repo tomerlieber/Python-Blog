@@ -30,7 +30,7 @@ const ArticlePage = ({ match }) => {
         <>
         <h1>{article.title}</h1>
         <UpvotesSection articleName={name} upvotes={articleInfo.upvotes} setArticleInfo={setArticleInfo} />
-        {<article.content />}
+        {<article.content/>}
         <CommentsList comments={articleInfo.comments} />
         <AddCommentForm articleName={name} setArticleInfo={setArticleInfo} />
         <h3>Other Articles:</h3>
