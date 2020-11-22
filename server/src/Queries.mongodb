@@ -7,7 +7,7 @@
 use('python-blog');
 
 // Removes the current database, deleting the associated data files.
-db.dropDatabase();
+//db.dropDatabase();
 
 // The drop() command destroys all data from a collection.
 // Make sure you run it against proper database and collection.
