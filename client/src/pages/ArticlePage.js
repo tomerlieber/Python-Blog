@@ -5,6 +5,8 @@ import UpvotesSection from '../components/UpvotesSection';
 import AddCommentForm from '../components/AddCommentForm';
 import articleContent from './article-content';
 import NotFoundPage from './NotFoundPage';
+import Header from '../Header';
+import Background from '../img/posts.jpg'
 
 const ArticlePage = ({ match }) => {
     const name = match.params.name;
@@ -28,13 +30,15 @@ const ArticlePage = ({ match }) => {
 
     return (
         <>
-        <h1>{article.title}</h1>
-        <UpvotesSection articleName={name} upvotes={articleInfo.upvotes} setArticleInfo={setArticleInfo} />
-        {<article.content/>}
-        <CommentsList comments={articleInfo.comments} />
-        <AddCommentForm articleName={name} setArticleInfo={setArticleInfo} />
-        <h3>Other Articles:</h3>
-        <ArticlesList articles={otherArticles} />
+        <Header heading={article.title} image={Background}/>
+        <div id="page-body">
+            <article.content/>
+            <UpvotesSection articleName={name} upvotes={articleInfo.upvotes} setArticleInfo={setArticleInfo} />
+            <CommentsList comments={articleInfo.comments} />
+            <AddCommentForm articleName={name} setArticleInfo={setArticleInfo} />
+            <h2 className="mt-5 mb-3"><u>Other Articles:</u></h2>
+            <ArticlesList articles={otherArticles} />
+        </div>
         </>
     );
 }

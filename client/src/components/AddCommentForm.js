@@ -19,18 +19,17 @@ const AddCommentForm = ({ articleName, setArticleInfo }) => {
     }
 
     return (
-        <div id="add-comment-form">
-            <h3>Add a Comment</h3>
-            <label>
-                Name:
-                <input type="text" value={username} onChange={(event) => setUsername(event.target.value)} />
-            </label>
-            <label>
-                Comment:
-                <textarea rows="4" cols="50" value={commentText} onChange={(event) => setCommentText(event.target.value)} />
-            </label>
-            <button onClick={() => addComment()}>Add Comment</button>
-        </div>
+        <>
+            <div className="from-group mt-4">
+                <label for="inputName">Name:</label>
+                <input type="text" className="form-control" id="inputName" value={username} onChange={(event) => setUsername(event.target.value)} />
+            </div>
+            <div className="form-group">
+                <label for="inputComment">Comment:</label>
+                <textarea className="form-control" id="inputComment" rows="3" value={commentText} onChange={(event) => setCommentText(event.target.value)}></textarea>
+            </div>
+            <button class="btn btn-dark btn-lg" onClick={() => addComment()}>Add Comment</button>
+        </>
     );
 }
 

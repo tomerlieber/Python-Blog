@@ -2,7 +2,7 @@ import React from 'react'; // Maybe I can remove it
 
 const CreatingModules = () => (
     <>
-    <h1>Creating Modules</h1>
+    {/* <h1>Creating Modules</h1> */}
     <p><b>Create a Module</b><br/>
         To create a module save the code you want in a file with the file extension .py
     </p>

@@ -2,7 +2,7 @@ import React from 'react'; // Maybe I can remove it
 
 const ZenOfPython = () => (
     <>
-    <h1>Zen of Python</h1>
+    {/* <h1>Zen of Python</h1> */}
     <p>The <b>Zen of Python</b> is a collection of 19 guidelines for the design of the Python programming language. 
         The purpose of these guidelines is to make the code more readable and simple so it can be easily understood. 
         To watch the full collection click

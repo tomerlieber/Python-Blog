@@ -2,7 +2,7 @@ import React from 'react'; // Maybe I can remove it
 
 const CreatingFunctions = () => (
     <>
-    <h1>Creating Functions</h1>
+    {/* <h1>Creating Functions</h1> */}
     <p>As you can see in the previous post, Python gives you many built-in functions like <code>print(), input()</code> etc. But you can also create your own functions. </p>
     <p>
         <b>Definition</b><br/>

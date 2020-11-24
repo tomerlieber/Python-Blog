@@ -2,7 +2,7 @@ import React from 'react'; // Maybe I can remove it
 
 const CallingFunctions = () => (
     <>
-    <h1>Calling Functions</h1>
+    {/* <h1>Calling Functions</h1> */}
     <p>The Python programming language comes with a variety of build-in functions. Some functions are part of the base language and others require you to import from python modules.</p>
     <p>
         <b>Calling a function</b><br/>

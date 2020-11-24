@@ -2,7 +2,7 @@ import React from 'react'; // Maybe I can remove it
 
 const BasicOutput = () => (
     <>
-    <h1>Basic Output</h1>
+    {/* <h1>Basic Output</h1> */}
     <p>The <code>print()</code> function prints the given object to the screen. The object will be converted into a string before written to the screen.</p>
     <p>
         <b>Example 1</b> - How to print one object:<br/>

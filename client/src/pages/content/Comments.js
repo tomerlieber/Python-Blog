@@ -2,7 +2,7 @@ import React from 'react'; // Maybe I can remove it
 
 const Comments = () => (
     <>
-    <h1>Comments</h1>
+    {/* <h1>Comments</h1> */}
     <p>When writing code in any programming language, it's important to make the code readable and clear so other people (include you) can easily maintain and develop the program. One way to do it is to use comments.</p>
     <p>In python there are two types of comments:</p>
     <ol>

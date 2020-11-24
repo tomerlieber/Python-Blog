@@ -2,7 +2,7 @@ import React from 'react'; // Maybe I can remove it
 
 const BasicUserInput = () => (
     <>
-    <h1>Basic User Input</h1>
+    {/* <h1>Basic User Input</h1> */}
     <p>Programs sometimes need to interact with users through the keyboard. In Python 3, the function <code>input()</code> is used for it.</p>
     <p>
         <b>Example 1</b><br/>

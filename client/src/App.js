@@ -14,7 +14,7 @@ function App() {
     <Router>
       <div className="App">
         <NavBar />
-        <div id="page-body">
+        {/* <div id="page-body"> */}
           <Switch>
             <Route path="/" component={ HomePage } exact />
             <Route path="/about" component={ AboutPage } />
@@ -22,7 +22,7 @@ function App() {
             <Route path="/posts/:name" component={ ArticlePage } />
             <Route component={ NotFoundPage } />
           </Switch>
-        </div>
+        {/* </div> */}
       </div>
     </Router>
   );

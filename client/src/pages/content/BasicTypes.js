@@ -2,7 +2,7 @@ import React from 'react'; // Maybe I can remove it
 
 const BasicTypes = () => (
     <>
-    <h1>Basic Types</h1>
+    {/* <h1>Basic Types</h1> */}
     <p>In Python there are 5 basic types: Integers, Floating-Point Numbers, Complex Numbers, Strings and Boolean.</p>
     <p>Before I explain how to create and use the basic types in Python, note that Python is dynamic language unlike java and c# which are static languages. It means that variables need not be declared or defined. To create a variable, you just assign it a value and then start using it. Assignment is done with a single equals sign (=).</p>
     <ol>

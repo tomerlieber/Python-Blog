@@ -2,7 +2,7 @@ import React from 'react'; // Maybe I can remove it
 
 const UsingModules = () => (
     <>
-    <h1>Using Modules</h1>
+    {/* <h1>Using Modules</h1> */}
     <p>
         <b>Definition</b><br/>
         A file containing a set of functions and constants.

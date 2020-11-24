@@ -9,9 +9,11 @@ const UpvotesSection = ({ articleName, upvotes, setArticleInfo }) => {
         setArticleInfo(body);
     }
     return (
-        <div id="upvotes-section">
-            <button onClick={() => upvoteArticle()}>Add Upvote</button>
-            <p>This post has been upvoted {upvotes} times</p>
+        <div className="mt-5 mb-3" id="upvotes-section">
+            <button onClick={() => upvoteArticle()} className="btn btn-danger btn-lg">
+                <span className="glyphicon glyphicon-heart" aria-hidden="true"></span> Like
+            </button>
+            <p>The post recieved {upvotes} likes</p>
         </div>
     );
 }

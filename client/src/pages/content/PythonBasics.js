@@ -2,7 +2,7 @@ import React from 'react'; // Maybe I can remove it
 
 const PythonBasics = () => (
     <>
-    <h1>Python Basics</h1>
+    {/* <h1>Python Basics</h1> */}
     <ol>
         <li>Go to the website <a href="https://thonny.org/" target="_blank" rel="noopener noreferrer">https://thonny.org/</a> and download Thonny.</li>
         <li>Open Thonny.</li>
