@@ -7,6 +7,7 @@ const NavBar = () => (
             <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
             </button>
+            <div className="collapse navbar-collapse" id="navbarResponsive">
                 <ul className="navbar-nav mx-auto">
                     <li className="nav-item active">
                         <Link to="/">Home</Link>
