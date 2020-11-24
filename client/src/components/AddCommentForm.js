@@ -21,14 +21,14 @@ const AddCommentForm = ({ articleName, setArticleInfo }) => {
     return (
         <>
             <div className="from-group mt-4">
-                <label for="inputName">Name:</label>
+                <label htmlFor="inputName">Name:</label>
                 <input type="text" className="form-control" id="inputName" value={username} onChange={(event) => setUsername(event.target.value)} />
             </div>
             <div className="form-group">
-                <label for="inputComment">Comment:</label>
+                <label htmlFor="inputComment">Comment:</label>
                 <textarea className="form-control" id="inputComment" rows="3" value={commentText} onChange={(event) => setCommentText(event.target.value)}></textarea>
             </div>
-            <button class="btn btn-dark btn-lg" onClick={() => addComment()}>Add Comment</button>
+            <button className="btn btn-dark btn-lg mb-4" onClick={() => addComment()}>Add Comment</button>
         </>
     );
 }

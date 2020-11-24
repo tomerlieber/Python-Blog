@@ -36,7 +36,7 @@ const ArticlePage = ({ match }) => {
             <UpvotesSection articleName={name} upvotes={articleInfo.upvotes} setArticleInfo={setArticleInfo} />
             <CommentsList comments={articleInfo.comments} />
             <AddCommentForm articleName={name} setArticleInfo={setArticleInfo} />
-            <h2 className="mt-5 mb-3"><u>Other Articles:</u></h2>
+            <h2 className="mt-5 mb-4"><u>Other Articles:</u></h2>
             <ArticlesList articles={otherArticles} />
         </div>
         </>

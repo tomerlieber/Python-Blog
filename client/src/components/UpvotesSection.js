@@ -9,7 +9,7 @@ const UpvotesSection = ({ articleName, upvotes, setArticleInfo }) => {
         setArticleInfo(body);
     }
     return (
-        <div className="mt-5 mb-3" id="upvotes-section">
+        <div className="mt-5 mb-4" id="upvotes-section">
             <button onClick={() => upvoteArticle()} className="btn btn-danger btn-lg">
                 <span className="glyphicon glyphicon-heart" aria-hidden="true"></span> Like
             </button>
