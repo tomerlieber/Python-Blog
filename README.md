@@ -8,7 +8,7 @@ However, even people with previous experience will be able to find helpful posts
 
 You are welcome to <a href="http://ec2-18-219-61-101.us-east-2.compute.amazonaws.com/"> enter the blog</a>, read some posts and give feedback.
 
-**Currently the website is down.**
+**Right now the website is down.**
 
 ---
 
